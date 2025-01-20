@@ -561,7 +561,8 @@ Artifacts are uploaded in the background, which can take time. Make sure the mat
 >
 {style="note"}
 
-Artifacts that are specified in the build configuration setting will be published as usual, after the finish of the last build step.
+Artifacts that are specified in the build configuration setting will be published as usual, after the last build step finishes.
+
 
 ### Passing NuGet Packages Between Steps
 
