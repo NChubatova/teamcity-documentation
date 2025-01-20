@@ -9,6 +9,10 @@ If you need additional help, we offer several convenient options:
 * [Issue tracker](https://youtrack.jetbrains.com/issues/TW) (public, with an option for private): Log bugs or feature requests.
 
 * [Support ticket (private)](ticket-based-support.md): Available only for customers with active Enterprise server [licenses](licensing-policy.md) to receive direct assistance from our support team.
+    {instance="tc"}
+
+* [Support ticket (private)](ticket-based-support.md)
+  {instance="tcc"}
 
 * [Community forum (public)](https://jb.gg/teamcity-forum): Engage in discussions with the wider user community.
 
