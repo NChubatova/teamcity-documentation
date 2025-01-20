@@ -1,5 +1,5 @@
-[//]: # (title: Reporting Issues)
-[//]: # (auxiliary-id: Reporting Issues)
+[//]: # (title: Diagnose and Report Problems)
+[//]: # (auxiliary-id: Diagnose and Report Problems)
 
 If you experience problems running TeamCity and believe they are related to the software, please [contact us](troubleshooting.md) with a detailed description of the issue.
 
