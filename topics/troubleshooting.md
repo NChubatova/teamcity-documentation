@@ -1,4 +1,4 @@
-[//]: # (title: Troubleshooting and Support)
+[//]: # (title: Support and Troubleshooting)
 [//]: # (auxiliary-id: Troubleshooting)
 
 
@@ -8,13 +8,13 @@ If you need additional help, we offer several convenient options:
 
 * [Issue tracker](https://youtrack.jetbrains.com/issues/TW) (public, with an option for private): Log bugs or feature requests.
 
-* [Support ticket (private)](ticket-based-support.md): Available only for customers with active Enterprise server [licenses](licensing-policy.md) to receive direct assistance from our support team.
+* [Support ticket](ticket-based-support.md) (private): Available only for customers with active Enterprise server [licenses](licensing-policy.md) to receive direct assistance from our support team.
     {instance="tc"}
 
-* [Support ticket (private)](ticket-based-support.md)
+* [Support ticket](ticket-based-support.md) (private)
   {instance="tcc"}
 
-* [Community forum (public)](https://jb.gg/teamcity-forum): Engage in discussions with the wider user community.
+* [Community forum](https://jb.gg/teamcity-forum) (public): Engage in discussions with the wider user community.
 
 These options are described in more detail below.
 
@@ -33,11 +33,11 @@ Feature requests can also be logged through our issue tracker.
 
 Customers who own a TeamCity Enterprise server license with active maintenance can submit a ticket directly to our support team. We use Zendesk for our ticketing system, and tickets can be submitted through the [online support form](https://teamcity-support.jetbrains.com/hc/en-us/requests/new?ticket_form_id=66621) or by [email](mailto:teamcity-support@jetbrains.com).
 
-For additional details, such as our support team’s availability, optional support plans with defined SLAs, and handling of production outage situations, please refer to the Ticket-Based Support page.
+For additional details, such as our support team’s availability, optional support plans with defined SLAs, and handling of production outage situations, please refer to the [Ticket-Based Support](ticket-based-support.md) page.
 
 ### Community Forum
 
-You can search the TeamCity community forum to see if anyone else has experienced your problem. Our forum's user base is quite active and is a good place to find support or start threads.
+You can search the [TeamCity community forum](https://jb.gg/teamcity-forum) to see if anyone else has experienced your problem. Our forum's user base is quite active and is a good place to find support or start threads.
 
 ## General Guidance
 

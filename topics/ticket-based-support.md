@@ -2,7 +2,7 @@
 
 Customers who own a TeamCity Enterprise server license with active maintenance can submit a ticket directly to our support team. Each ticket is assigned to one of our support engineers, who will respond to your question or issue, and assist with diagnosing the problem.
 
-If you are using a free Professional Server license, you can explore other ways to raise issues or engage with the community by visiting our [Troubleshooting and Support](troubleshooting.md) page.
+If you are using a free Professional Server license, you can explore other ways to raise issues or engage with the community by visiting our [](troubleshooting.md) page.
 
 ## Support Tiers
 
@@ -53,7 +53,7 @@ You can contact us by:
 
 * completing the [online support form](https://teamcity-support.jetbrains.com/hc/en-us/requests/new?ticket_form_id=66621)
 
-* or emailing `teamcity-support@jetbrains.com`
+* or emailing [teamcity-support@jetbrains.com](mailto:teamcity-support@jetbrains.com)
 
 Both methods will generate a ticket in our ticketing system, Zendesk.
 
