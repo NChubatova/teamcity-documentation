@@ -11,6 +11,10 @@ JetBrains offers three tiers of support: Standard support (included with all act
 ## Availability
 
 Support is provided Monday through Friday, during Central European business hours. Our typical response time is within 24 hours, excluding weekends and public holidays in Central Europe.
+{instance="tc"}
+
+Support is provided Monday through Friday, during Central European business hours. Our typical response time is within a few hours, excluding weekends and public holidays in Central Europe.
+{instance="tcc"}
 
 If you have upgraded your support tier to one of the optional [Business or Enterprise support plans](https://www.jetbrains.com/teamcity/support/#plans), you will benefit from 24/7 availability and varying SLAs for response times.
 
@@ -19,14 +23,27 @@ If you have upgraded your support tier to one of the optional [Business or Enter
 Before submitting a ticket to our support team, we suggest that you check if the answer is already available in:
 
 * Online documentation: [Common Problems](common-problems.md), [Known Issues](known-issues.md), [Licensing Policy](licensing-policy.md)
+    {instance="tc"}
+
+* Online documentation: [Common Problems](common-problems.md), [Known Issues](known-issues.md)
+    {instance="tcc"}
 
 * [Public issue tracker](https://youtrack.jetbrains.com/issues/TW)
 
 * [Community forum](https://jb.gg/teamcity-forum)
 
 When submitting a ticket, make sure to:
+{instance="tc"}
 
-<include from="troubleshooting.md" element-id="general-support-recommendations"/>
+* Provide all necessary information by reviewing the [guidelines on reporting issues](reporting-issues.md).
+  {instance="tc"}
+
+* Use a [recent TeamCity version](previous-releases-downloads.md). Please note that we generally do not provide regular support for major versions that are more than one year old (refer to the [Release Cycle](teamcity-release-cycle.md) page for more details).
+  {instance="tc"}
+
+
+When submitting a ticket, make sure to provide all necessary information by reviewing the [guidelines on reporting issues](reporting-issues.md).
+{instance="tcc"}
 
 Support is restricted to TeamCity-specific issues and does not cover issues related to third-party TeamCity plugins, inappropriate environment configuration for a server application, or similar concerns.
 

@@ -38,14 +38,19 @@ You can search the TeamCity community forum to see if anyone else has experience
 ## General Guidance
 
 When reporting an issue through one of the systems mentioned above, make sure to:
-
-<snippet id="general-support-recommendations">
+{instance="tc"}
 
 * Provide all necessary information by reviewing the [guidelines on reporting issues](reporting-issues.md).
+    {instance="tc"}
 
 * Use a [recent TeamCity version](previous-releases-downloads.md). Please note that we generally do not provide regular support for major versions that are more than one year old (refer to the [Release Cycle](teamcity-release-cycle.md) page for more details).
+    {instance="tc"}
 
-</snippet>
+
+When reporting an issue through one of the systems mentioned above, make sure to provide all necessary information by reviewing the [guidelines on reporting issues](reporting-issues.md).
+{instance="tcc"}
+
+
 
 ## Data Security
 
