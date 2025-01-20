@@ -150,6 +150,7 @@ To differentiate local mappings, it is recommended to use checkout rules in the 
 <anchor name="teamFoundationServerLive"/>
 
 ## Authentication in Azure DevOps
+{help-id="TeamFoundationServer-azure-devops"}
 
 Azure DevOps [stopped supporting](https://devblogs.microsoft.com/devops/azure-devops-will-no-longer-support-alternate-credentials-authentication/) alternate credentials since March 2, 2020. Currently, only authentication via personal access tokens is available.
 

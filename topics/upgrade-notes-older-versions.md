@@ -140,7 +140,7 @@ Download newer versions of these plugins from JetBrains Marketplace:
 {id="bundled-tools-updates-2022-04"}
 
 * Versions 2017.1 and 2017.2 of [TeamCity REST API](https://www.jetbrains.com/help/teamcity/rest/teamcity-rest-api-documentation.html) have been unbundled. 
-If you have been using any of these versions in your scripts, consider switching to the latest protocol version as described [here](https://www.jetbrains.com/help/teamcity/rest/teamcity-rest-api-documentation.html#REST+API+Versions). If switching is not an option and this is a breaking change for your setup, please contact us via any convenient [feedback channel](feedback.md).
+If you have been using any of these versions in your scripts, consider switching to the latest protocol version as described [here](https://www.jetbrains.com/help/teamcity/rest/teamcity-rest-api-documentation.html#REST+API+Versions). If switching is not an option and this is a breaking change for your setup, please contact us via any convenient [feedback channel](troubleshooting.md).
 * Updates in TeamCity Agent Docker images:
   * The bundled .NET Core SDK has been updated to 6.0.100.
   * The two bundled versions of .NET Core Runtime are 3.1.21 and 5.0.12.
@@ -335,7 +335,7 @@ To get a PNG icon, use the `statusIcon.png` endpoint.
 
 ### Unbundled old versions of REST API
 
-The following old versions of [REST API](https://www.jetbrains.com/help/teamcity/rest/teamcity-rest-api-documentation.html) have been unbundled: 6.0, 7.0, 8.1, 9.0, 9.1. If this change causes any problems for your setup, please contact us via any [feedback channel](feedback.md).
+The following old versions of [REST API](https://www.jetbrains.com/help/teamcity/rest/teamcity-rest-api-documentation.html) have been unbundled: 6.0, 7.0, 8.1, 9.0, 9.1. If this change causes any problems for your setup, please contact us via any [feedback channel](troubleshooting.md).
 
 ### Bundled Tools Updates
 {id="bundled-tools-updates-20211"}
@@ -654,7 +654,7 @@ See the [.NET description](net.md) for more information about the new .NET step 
 >
 {type="note"}
 
-If you face any problems with migration to the .NET runner or encounter other related issues, do not hesitate to contact us via any convenient [feedback channel](feedback.md).
+If you face any problems with migration to the .NET runner or encounter other related issues, do not hesitate to contact us via any convenient [feedback channel](troubleshooting.md).
 
 ### Known Issues
 {id="known-issues-201923"}
@@ -1076,11 +1076,11 @@ Requests which used "value:&lt;text&gt;" locators (e.g. for matching properties)
 
 ### VSS plugin is unbundled
 
-The Visual SourceSafe plugin is no longer bundled with TeamCity but is available as a [separate download](https://plugins.jetbrains.com/plugin/10902-vcs-support-vss). Please contact our [support](feedback.md), if you still use this VSS for your builds.
+The Visual SourceSafe plugin is no longer bundled with TeamCity but is available as a [separate download](https://plugins.jetbrains.com/plugin/10902-vcs-support-vss). Please contact our [support](troubleshooting.md), if you still use this VSS for your builds.
 
 ### Other
 
-* Commit Status Publisher supports Gerrit 2.6\+ versions. For support for older Gerrit versions, please turn to our [support](feedback.md).
+* Commit Status Publisher supports Gerrit 2.6\+ versions. For support for older Gerrit versions, please turn to our [support](troubleshooting.md).
 * When upgrading from TeamCity versions before 9.1, if TeamCity 2018.1 starts and agents are upgraded, but then you decide to roll back the server to the previous TeamCity version, the agents will not be able to connect back to the old server and will need to be reinstalled manually.
 * Make sure that no HTTP requests from the agents to the server are blocked (e.g. requests to .../app/agents/... URLs)
 * Since 2018.1, TeamCity uses the full project name with "/" instead of "::" as the separator for Project \- Subproject wherever the full project name is present.
@@ -1193,7 +1193,7 @@ __build entity__ No longer expose boolean "running" attribute, textual "state" a
 
 ### Windows Versions Support
 
-Windows XP and Vista are no longer the supported versions of Windows for the TeamCity Server and Agent. While the server and agent will still most probably work on these old versions, we do not target the versions during our development. [Let us know](feedback.md) if the support for the versions is important for your TeamCity usage or you find any issues with the systems support.
+Windows XP and Vista are no longer the supported versions of Windows for the TeamCity Server and Agent. While the server and agent will still most probably work on these old versions, we do not target the versions during our development. [Let us know](troubleshooting.md) if the support for the versions is important for your TeamCity usage or you find any issues with the systems support.
 
 ### J2EE Servlet 2.5 container is no longer supported
 
@@ -1965,7 +1965,7 @@ Password properties of the VCS roots are now included into the responses, just w
 
 CCTray\-format XML (`app/rest/cctray/projects.xml`) does not include paused build configurations now.
 
-Response to the experimental request `/app/rest/buildTypes/XXX/investigations` has changed the format and got additional fields to cover tests and problem investigations. There is an internal property `rest.beans.buildTypeInvestigationCompatibility` to include removed sub\-items. Please let us know via [support email](feedback.md) if you need to use the internal property.
+Response to the experimental request `/app/rest/buildTypes/XXX/investigations` has changed the format and got additional fields to cover tests and problem investigations. There is an internal property `rest.beans.buildTypeInvestigationCompatibility` to include removed sub\-items. Please let us know via [support email](troubleshooting.md) if you need to use the internal property.
 
 ## Changes from 8.0.5 to 8.0.6
 
@@ -2038,7 +2038,7 @@ TFS now prefers Team Explorer 2012 to Team Explorer 2010 (if both are installed)
 #### Compatibility with YouTrack
 
 If you use JetBrains YouTrack and use its TeamCity integration features, please note that only YouTrack version 4.2.4 and later are compatible with TeamCity 8.0.   
-If you need earlier YouTrack versions to work with TeamCity 8.0, please [let us know](feedback.md).
+If you need earlier YouTrack versions to work with TeamCity 8.0, please [let us know](troubleshooting.md).
 
 
 [//]: # (Internal note. Do not delete. "Upgrade Notesd333e2793.txt")    
@@ -2154,7 +2154,7 @@ __Windows domain login module__
 When TeamCity server runs under Windows and Windows domain user authentication is used, TeamCity now uses another library (Waffle) to talk to the Windows domain. Under Linux the behavior is unchanged: jCIFS library is used as it were.
 
 Unless you specified specific settings for jCIFS library in ntlm\-config.properties file, your installation should not be affected.   
-If you experience any issues with login into TeamCity with your Windows username/password after upgrade, please provide details [to us](feedback.md). In the mean time you can switch to using old jCIFS library. For this, add `teamcity.ntlm.use.jcifs=true` line into [internal properties file](server-startup-properties.md).   
+If you experience any issues with login into TeamCity with your Windows username/password after upgrade, please provide details [to us](troubleshooting.md). In the mean time you can switch to using old jCIFS library. For this, add `teamcity.ntlm.use.jcifs=true` line into [internal properties file](server-startup-properties.md).   
 Please note that jCIFS library approach can be depricated in future versions of TeamCity, so the property specification is not recommended if you can go without it.
 
 __Checkout directory change for Git and Mercurial__   
